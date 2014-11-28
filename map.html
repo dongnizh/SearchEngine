@@ -151,7 +151,9 @@
         var option = "#list2 #"+$(this).val()+"-option";
         $('.list-option').hide();
         $(option).show();
-
+        $(option).val('');
+        $('#second_layer').empty();
+        
         if ($(this).val() == "Q1") {
           d3.json("my.json",Q1_callBack);
         }else if ($(this).val() == "Q2") {
@@ -173,19 +175,19 @@
           if(val == "company"){
 
             $('#second_layer').empty();
-              svg.select("#second_layer")
-                  .selectAll("path")
-                  .data(dataset.locat)
-                  .enter()
-                  .append("circle")
-                  .attr("r", "1")
-                  .attr("fill",function(d){
-                    if(d.company == "ms") return "green";
-                    else if(d.company == "amazon") return "red";
-                    else return "black";
-                  })
-                  .attr("cy", function(d){ return map([d.lon,d.lal])[1] })
-                  .attr("cx", function(d){ return map([d.lon,d.lal])[0] });
+            svg.select("#second_layer")
+                .selectAll("path")
+                .data(dataset.locat)
+                .enter()
+                .append("circle")
+                .attr("r", "1")
+                .attr("fill",function(d){
+                  if(d.company == "ms") return "green";
+                  else if(d.company == "amazon") return "red";
+                  else return "black";
+                })
+                .attr("cy", function(d){ return map([d.lon,d.lal])[1] })
+                .attr("cx", function(d){ return map([d.lon,d.lal])[0] });
 
           }else if (val == "salary") {
 
