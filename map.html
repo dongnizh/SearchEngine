@@ -129,7 +129,7 @@
       svg.call(zoom)
           .call(zoom.event);
 
-      d3.json("./build/world.json", function(error, world) {
+      d3.json("world.json", function(error, world) {
         layer1.append("path")
             .datum({type: "Sphere"})
             .attr("class", "sphere")
