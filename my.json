@@ -1,0 +1,32 @@
+{
+    "locat": [
+        {
+            "lal": 40.2993,
+            "lon": -74.407124,
+            "salary": 100,
+            "company": "ms",
+            "jobType": "fulltime"
+        },
+        {
+            "lal": 40.71455,
+            "lon": -74.007124,
+            "salary": 500,
+            "company": "amazon",
+            "jobType": "ft"
+        },
+        {
+            "lal": 40.2993,
+            "lon": -75.007124,
+            "salary": 2000,
+            "company": "facebook",
+            "jobType": "halftime"
+        },
+        {
+            "lal": 34.05,
+            "lon": -118.25,
+            "salary": 700,
+            "company": "google",
+            "jobType": "hf"
+        }
+    ]
+}
