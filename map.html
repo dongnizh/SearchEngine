@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      svg {
+        /*background: #eee;*/
+        /*margin-left: 5%;*/
+        float: left;
+        }
+
+      .sphere {
+        fill: #fff;
+      }
+
+      .land {
+        fill: #f3f3f3;
+        stroke: #d3d3d3;
+        stroke-width: -2px;
+      }
+
+      .boundary {
+        fill: none;
+        stroke: #d3d3d3;
+        stroke-width: -2px;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+        vector-effect: non-scaling-stroke;
+      }
+
+      .overlay {
+        fill: none;
+        pointer-events: all;
+      }
+
+      #dropdown-list{
+        float: right;
+        margin:3%;
+      }
+
+      #list2{
+        position: relative;
+        margin-top:10px;
+      }
+
+      select{
+        width: 80px;
+      }
+
+      .list-option{
+        display: none;
+      }
+    </style>
+
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+
+  <body>
+    <div id="dropdown-list">
+      <div id="list1">
+        <select>
+          <option value=""></option>
+          <option value="Q1">Q1</option>
+          <option value="Q2">Q2</option>
+          <option value="Q3">Q3</option>
+          <option value="Q4">Q4</option>
+        </select>
+      </div>
+      <div id="list2">
+        <select id="Q1-option" class="list-option">
+          <option value=""></option>
+          <option value="company">company</option>
+          <option value="salary">salary</option>
+          <option value="jobType">jobType</option>
+        </select>
+        <select id="Q2-option" class="list-option">
+          <option value=""></option>
+          <option value="Q1">company</option>
+          <option value="Q2">salary</option>
+          <option value="Q3">jobType</option>
+        </select>
+        <select id="Q3-option" class="list-option">
+          <option value=""></option>
+          <option value="Q1">company</option>
+          <option value="Q2">salary</option>
+          <option value="Q3">jobType</option>
+        </select>
+        <select id="Q4-option" class="list-option">
+          <option value=""></option>
+          <option value="s1">season1</option>
+          <option value="s2">season2</option>
+          <option value="s3">season3</option>
+          <option value="s4">season4</option>
+        </select>
+      </div>
+    </div>
+    <script>
+
+      var width = 960,
+          height = 560;
+
+      var map = d3.geo.mercator()
+          .translate([width / 2, height / 2])
+          .scale((width - 1) / 2 / Math.PI);
+
+      var zoom = d3.behavior.zoom()
+          .scaleExtent([1, 8])
+          .on("zoom", zoomed);
+
+      var path = d3.geo.path()
+          .projection(map);
+
+      var svg = d3.select("body").insert("svg",":first-child")
+          .attr("width", width)
+          .attr("height", height)
+        .append("g");
+
+      var layer1 = svg.append("g").attr("id", "first_layer");
+      var layer2 = svg.append("g").attr("id", "second_layer");
+
+      svg.append("rect")
+          .attr("class", "overlay")
+          .attr("width", width)
+          .attr("height", height);
+
+      svg.call(zoom)
+          .call(zoom.event);
+
+      d3.json("./build/world.json", function(error, world) {
+        layer1.append("path")
+            .datum({type: "Sphere"})
+            .attr("class", "sphere")
+            .attr("d", path);
+
+        layer1.append("path")
+            .datum(topojson.merge(world, world.objects.countries.geometries))
+            .attr("class", "land")
+            .attr("d", path);
+
+        layer1.append("path")
+            .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+            .attr("class", "boundary")
+            .attr("d", path);
+      });
+
+      $('#list1 select').change(function () {
+
+        var option = "#list2 #"+$(this).val()+"-option";
+        $('.list-option').hide();
+        $(option).show();
+
+        if ($(this).val() == "Q1") {
+          d3.json("my.json",Q1_callBack);
+        }else if ($(this).val() == "Q2") {
+          d3.json("my.json",Q2_callBack);
+        }else if ($(this).val() == "Q3") {
+          d3.json("my.json",Q3_callBack);
+        }else if($(this).val() == "Q4"){
+          d3.json("second.json",Q4_callBack);
+        }
+        
+      
+      });
+      
+      function Q1_callBack(dataset){
+
+        $('#list2 select').change(function () {
+          var val = $(this).val(); 
+
+          if(val == "company"){
+
+            $('#second_layer').empty();
+              svg.select("#second_layer")
+                  .selectAll("path")
+                  .data(dataset.locat)
+                  .enter()
+                  .append("circle")
+                  .attr("r", "1")
+                  .attr("fill",function(d){
+                    if(d.company == "ms") return "green";
+                    else if(d.company == "amazon") return "red";
+                    else return "black";
+                  })
+                  .attr("cy", function(d){ return map([d.lon,d.lal])[1] })
+                  .attr("cx", function(d){ return map([d.lon,d.lal])[0] });
+
+          }else if (val == "salary") {
+
+            $('#second_layer').empty();
+            svg.select("#second_layer")
+                .selectAll("path")
+                .data(dataset.locat)
+                .enter()
+                .append("circle")
+                .attr("r", "1")
+                .attr("fill",function(d){
+                  if(d.salary < 500) return "red";
+                  else if(d.salary >=500 && d.salary < 1000) return "black";
+                  else return "yellow";
+                })
+                .attr("cy", function(d){ return map([d.lon,d.lal])[1] })
+                .attr("cx", function(d){ return map([d.lon,d.lal])[0] });
+            
+          }else{
+
+            $('#second_layer').empty();
+            svg.select("#second_layer")
+                .selectAll("path")
+                .data(dataset.locat)
+                .enter()
+                .append("circle")
+                .attr("r", "1")
+                .attr("fill","black")
+                .attr("cy", function(d){ return map([d.lon,d.lal])[1] })
+                .attr("cx", function(d){ return map([d.lon,d.lal])[0] });
+          }
+        });
+      }
+
+      function Q4_callBack(dataset){
+        $('#list2 select').change(function () {
+          var val = $(this).val(); 
+
+          $('#second_layer').empty();
+            svg.select("#second_layer")
+                .selectAll("path")
+                .data(dataset.locat)
+                .enter()
+                .append("circle")
+                .attr("r", "1")
+                .attr("fill","red")
+                .attr("cy", function(d){ return map([d.lon,d.lal])[1] })
+                .attr("cx", function(d){ return map([d.lon,d.lal])[0] });
+        });
+      }
+
+      function zoomed() {
+        svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+      }
+
+      d3.select(self.frameElement).style("height", height + "px");
+
+    </script>
+  </body>
+</html>
