@@ -1,7 +1,7 @@
 SearchEngine
 ============
 
-Assignment 2 for CSCI 572 at University of Southern California
+Assignment 3 for CSCI 572 at University of Southern California
 
 Dongni Zhao : /*XXXXXXXXXX*/
 
