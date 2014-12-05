@@ -233,7 +233,18 @@
           }
           
         }else if ($("#list1 select").val() == "Q2") {
-          
+          //by month 12
+          d3.json("data/query5.json",projectDot_Q2);
+          setTimeout(function(){
+            d3.json("data/query6.json",projectDot_Q2);
+          }, 2000);
+          setTimeout(function(){
+            d3.json("data/query7.json",projectDot_Q2);
+          }, 4000);
+          setTimeout(function(){
+            d3.json("data/query8.json",projectDot_Q2);
+          }, 6000);
+
         }else if ($("#list1 select").val() == "Q3") {
           
 
@@ -267,7 +278,7 @@
             setTimeout(function(){
               d3.json("data/query20.json",function(d){ projectDot(d,"orange")});
             }, 6000);
-            
+
           }else if (val == "commercial") {
             
           }
@@ -295,6 +306,35 @@
                 .attr("r", "1")
                 .attr("fill",function(d){
                   return color;
+                })
+                .attr("cy", function(d){ return map([d.doclist.docs[0].longitude,d.doclist.docs[0].latitude])[1] })
+                .attr("cx", function(d){ return map([d.doclist.docs[0].longitude,d.doclist.docs[0].latitude])[0] });
+      }
+
+      function projectDot_Q2(dataset){
+
+        $('#second_layer').empty();
+            svg.select("#second_layer")
+                .selectAll("path")
+                .data(dataset.grouped.Area.groups)
+                .enter()
+                .append("circle")
+                .attr("r", "1")
+                .attr("fill",function(d){
+                  var category = d.doclist.docs[0].tag;
+                  if (category == "business") {
+                    return "red";
+                  }else if (category == "industrial") {
+                    return "green";
+                  }else if(category == "service") {
+                    return "brown";
+                  }else if(category == "commercial") {
+                    return "orange";
+                  }else if(category == "residential") {
+                    return "grey";
+                  }else{ //medical
+                    return "black";
+                  }
                 })
                 .attr("cy", function(d){ return map([d.doclist.docs[0].longitude,d.doclist.docs[0].latitude])[1] })
                 .attr("cx", function(d){ return map([d.doclist.docs[0].longitude,d.doclist.docs[0].latitude])[0] });
