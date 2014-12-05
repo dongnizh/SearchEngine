@@ -39,6 +39,12 @@
         margin:3%;
       }
 
+      #input-form{
+        width: 73px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
       #list2{
         position: relative;
         margin-top:10px;
@@ -59,7 +65,9 @@
   </head>
 
   <body>
+    <div>
     <div id="dropdown-list">
+      
       <div id="list1">
         <select>
           <option value=""></option>
@@ -75,6 +83,9 @@
           <option value="company">company</option>
           <option value="salary">salary</option>
           <option value="jobType">jobType</option>
+          <option value="company_temporal">company temporal</option>
+          <option value="salary_temporal">salary temporal</option>
+          <option value="jobType_temporal">jobType temporal</option>
         </select>
         <select id="Q2-option" class="list-option">
           <option value=""></option>
@@ -90,15 +101,23 @@
         </select>
         <select id="Q4-option" class="list-option">
           <option value=""></option>
-          <option value="s1">season1</option>
-          <option value="s2">season2</option>
-          <option value="s3">season3</option>
-          <option value="s4">season4</option>
+          <option value="business">business</option>
+          <option value="industrial">industrial</option>
+          <option value="commercial">commercial</option>
+          <option value="service">service</option>
+          <option value="medical">medical</option>
+          <option value="residential">residential</option>
         </select>
       </div>
+      <!-- <form id="form"> -->
+        <input id="input-form" type="text" name="fname">
+        <br/>
+        <input id="click-form" type="submit" value="Submit">
+      <!-- </form> -->
     </div>
-    <script>
 
+    <script>
+      
       var width = 960,
           height = 560;
 
@@ -153,90 +172,132 @@
         $(option).show();
         $(option).val('');
         $('#second_layer').empty();
-        
-        if ($(this).val() == "Q1") {
-          d3.json("my.json",Q1_callBack);
-        }else if ($(this).val() == "Q2") {
-          d3.json("my.json",Q2_callBack);
-        }else if ($(this).val() == "Q3") {
-          d3.json("my.json",Q3_callBack);
-        }else if($(this).val() == "Q4"){
-          d3.json("second.json",Q4_callBack);
-        }
-        
       
       });
       
-      function Q1_callBack(dataset){
+      $('#click-form').click(function () {
 
-        $('#list2 select').change(function () {
-          var val = $(this).val(); 
+        var val = $("#list2 select").val(); 
 
-          if(val == "company"){
+        if ($("#list1 select").val() == "Q1") {
+          var val = $("#list2 #Q1-option").val(); 
 
-            $('#second_layer').empty();
-            svg.select("#second_layer")
-                .selectAll("path")
-                .data(dataset.locat)
-                .enter()
-                .append("circle")
-                .attr("r", "1")
-                .attr("fill",function(d){
-                  if(d.company == "ms") return "green";
-                  else if(d.company == "amazon") return "red";
-                  else return "black";
-                })
-                .attr("cy", function(d){ return map([d.lon,d.lal])[1] })
-                .attr("cx", function(d){ return map([d.lon,d.lal])[0] });
+          if (val == "company") {
+            d3.json("data/query1.json",function(d){ projectDot(d,"red")});
 
-          }else if (val == "salary") {
+          }else if (val == "company_temporal"){
+            d3.json("data/query5.json",function(d){ projectDot(d,"green")});
 
-            $('#second_layer').empty();
-            svg.select("#second_layer")
-                .selectAll("path")
-                .data(dataset.locat)
-                .enter()
-                .append("circle")
-                .attr("r", "1")
-                .attr("fill",function(d){
-                  if(d.salary < 500) return "red";
-                  else if(d.salary >=500 && d.salary < 1000) return "black";
-                  else return "yellow";
-                })
-                .attr("cy", function(d){ return map([d.lon,d.lal])[1] })
-                .attr("cx", function(d){ return map([d.lon,d.lal])[0] });
-            
-          }else{
+            setTimeout(function(){
+              d3.json("data/query6.json",function(d){ projectDot(d,"red")});
+            }, 2000);
+            setTimeout(function(){
+              d3.json("data/query7.json",function(d){ projectDot(d,"black")});
+            }, 4000);
+            setTimeout(function(){
+              d3.json("data/query8.json",function(d){ projectDot(d,"orange")});
+            }, 6000);
 
-            $('#second_layer').empty();
-            svg.select("#second_layer")
-                .selectAll("path")
-                .data(dataset.locat)
-                .enter()
-                .append("circle")
-                .attr("r", "1")
-                .attr("fill","black")
-                .attr("cy", function(d){ return map([d.lon,d.lal])[1] })
-                .attr("cx", function(d){ return map([d.lon,d.lal])[0] });
+          }else if (val == "salary"){
+            d3.json("data/query3.json",function(d){ projectDot(d,"brown")});
+
+          }else if (val == "salary_temporal"){
+            d3.json("data/query5.json",function(d){ projectDot(d,"red")});
+
+            setTimeout(function(){
+              d3.json("data/query6.json",function(d){ projectDot(d,"black")});
+            }, 2000);
+            setTimeout(function(){
+              d3.json("data/query7.json",function(d){ projectDot(d,"green")});
+            }, 4000);
+            setTimeout(function(){
+              d3.json("data/query8.json",function(d){ projectDot(d,"orange")});
+            }, 6000);
+
+          }else if (val == "jobType"){
+            d3.json("data/query2.json",function(d){ projectDot(d,"red")});
+
+          }else if (val == "jobType_temporal"){
+            d3.json("data/query5.json",function(d){ projectDot(d,"brown")});
+
+            setTimeout(function(){
+              d3.json("data/query6.json",function(d){ projectDot(d,"red")});
+            }, 2000);
+            setTimeout(function(){
+              d3.json("data/query7.json",function(d){ projectDot(d,"grey")});
+            }, 4000);
+            setTimeout(function(){
+              d3.json("data/query8.json",function(d){ projectDot(d,"orange")});
+            }, 6000);
+
           }
-        });
-      }
+          
+        }else if ($("#list1 select").val() == "Q2") {
+          
+        }else if ($("#list1 select").val() == "Q3") {
+          
 
-      function Q4_callBack(dataset){
-        $('#list2 select').change(function () {
-          var val = $(this).val(); 
+        }else if($("#list1 select").val() == "Q4"){
 
-          $('#second_layer').empty();
+          var val = $("#list2 #Q4-option").val(); 
+
+          if (val == "business") {
+            
+            d3.json("data/query13.json",function(d){ projectDot(d,"brown")});
+
+            setTimeout(function(){
+              d3.json("data/query14.json",function(d){ projectDot(d,"red")});
+            }, 2000);
+            setTimeout(function(){
+              d3.json("data/query15.json",function(d){ projectDot(d,"grey")});
+            }, 4000);
+            setTimeout(function(){
+              d3.json("data/query16.json",function(d){ projectDot(d,"orange")});
+            }, 6000);
+
+          }else if (val == "industrial") {
+            d3.json("data/query17.json",function(d){ projectDot(d,"brown")});
+
+            setTimeout(function(){
+              d3.json("data/query18.json",function(d){ projectDot(d,"red")});
+            }, 2000);
+            setTimeout(function(){
+              d3.json("data/query19.json",function(d){ projectDot(d,"grey")});
+            }, 4000);
+            setTimeout(function(){
+              d3.json("data/query20.json",function(d){ projectDot(d,"orange")});
+            }, 6000);
+            
+          }else if (val == "commercial") {
+            
+          }
+          else if (val == "service") {
+            
+          }
+          else if (val == "medical") {
+            
+          }
+          else if (val == "residential") {
+            
+          }
+        }
+
+      });
+
+      function projectDot(dataset,color){
+
+        $('#second_layer').empty();
             svg.select("#second_layer")
                 .selectAll("path")
-                .data(dataset.locat)
+                .data(dataset.grouped.Area.groups)
                 .enter()
                 .append("circle")
                 .attr("r", "1")
-                .attr("fill","red")
-                .attr("cy", function(d){ return map([d.lon,d.lal])[1] })
-                .attr("cx", function(d){ return map([d.lon,d.lal])[0] });
-        });
+                .attr("fill",function(d){
+                  return color;
+                })
+                .attr("cy", function(d){ return map([d.doclist.docs[0].longitude,d.doclist.docs[0].latitude])[1] })
+                .attr("cx", function(d){ return map([d.doclist.docs[0].longitude,d.doclist.docs[0].latitude])[0] });
       }
 
       function zoomed() {
