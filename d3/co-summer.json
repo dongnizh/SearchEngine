@@ -1,0 +1,4228 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":20,
+    "params":{
+      "group.ngroups":"true",
+      "fl":"category,longitude,latitude",
+      "indent":"true",
+      "q":"*:*",
+      "month":"01",
+      "group.field":"Area",
+      "group":"true",
+      "wt":"json",
+      "fq":["category:commerical",
+        "season:summer"],
+      "rows":"5000"}},
+  "grouped":{
+    "Area":{
+      "matches":33746,
+      "ngroups":526,
+      "groups":[{
+          "groupValue":"n/a",
+          "doclist":{"numFound":33029,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"0",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Margarita Mejia",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"2552-7642",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"San Pedro Sula, Honduras",
+          "doclist":{"numFound":3,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"15.50167",
+                "longitude":"-88.02774"}]
+          }},
+        {
+          "groupValue":"Universidad Pedag�gica Nacional \\\\'Francisco Moraz�n\\\\', CA 6, Tegucigalpa, Honduras",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"14.0754916",
+                "longitude":"-87.18808"}]
+          }},
+        {
+          "groupValue":"Universidad Pedagogi",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ca Nacional Francisco Morazan, CA 6, Tegucigalpa, Honduras",
+                "longitude":"14.0754916"}]
+          }},
+        {
+          "groupValue":"Cort�s, Honduras",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"15.4909515",
+                "longitude":"-87.9334803"}]
+          }},
+        {
+          "groupValue":"Mercedes Barrios",
+          "doclist":{"numFound":3,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"Anny Flores A.",
+          "doclist":{"numFound":3,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"-----",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-----",
+                "longitude":"-"}]
+          }},
+        {
+          "groupValue":"Diana Carolina Correa",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"UDES, C�cuta, Departamento de Norte de ",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Santander, Colombia",
+                "longitude":"7.9111475"}]
+          }},
+        {
+          "groupValue":"Medell�n, Anti�quia, Colombia",
+          "doclist":{"numFound":11,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"6.235925",
+                "longitude":"-75.575137"}]
+          }},
+        {
+          "groupValue":"Bogot�, Colombia",
+          "doclist":{"numFound":13,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.5980556",
+                "longitude":"-74.075"}]
+          }},
+        {
+          "groupValue":"Retorno A La CL170 Al Occidente, Bogot�, Cundinamarca, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.74785",
+                "longitude":"-74.02884"}]
+          }},
+        {
+          "groupValue":"Medell�n, Anti�qu",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ia, Colombia",
+                "longitude":"6.235925"}]
+          }},
+        {
+          "groupValue":"8277802",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"rez",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"Barranquillita, Barranquilla, Atlantico, Colombia",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"10.9861096",
+                "longitude":"-74.7702801"}]
+          }},
+        {
+          "groupValue":"gimnasio del norte, avenida el",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":" polo calle 201, bogot�, cundinamarca, colombia",
+                "longitude":"4.7820868"}]
+          }},
+        {
+          "groupValue":"Cali, Valle del Cauca, Colombia",
+          "doclist":{"numFound":8,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"3.43829",
+                "longitude":"-76.51611"}]
+          }},
+        {
+          "groupValue":"Universidad del Valle Sede Yumbo, Yumbo, Valle del Cauca, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"3.",
+                "longitude":"5871273"}]
+          }},
+        {
+          "groupValue":"Soacha, Cundinamarca, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.5833333",
+                "longitude":"-74.2166667"}]
+          }},
+        {
+          "groupValue":"xxxxxxxxxx",
+          "doclist":{"numFound":3,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"6642474",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"kenne",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"dy, bogot� d.c., bogot�, colombia",
+                "longitude":"4.643498"}]
+          }},
+        {
+          "groupValue":"3176478543",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Barranquilla, Atl�ntico, Colombia",
+                "longitude":"10.9861096"}]
+          }},
+        {
+          "groupValue":"Fontib�n, Bogot�, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.678487",
+                "longitude":"-74.141028"}]
+          }},
+        {
+          "groupValue":"Barrios Unidos, Bogot� D.C., Bogot�, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.678658",
+                "longitude":"-74.078679"}]
+          }},
+        {
+          "groupValue":"sogamoso, boyac�, colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"5.716667",
+                "longitude":"-72.916667"}]
+          }},
+        {
+          "groupValue":"2707183",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Kennedy, Bogot� D.C., Bogot�, Colombia",
+                "longitude":"4.643498"}]
+          }},
+        {
+          "groupValue":"engativ�, bogot�, cundinamarca, colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.71674",
+                "longitude":"-74.15001"}]
+          }},
+        {
+          "groupValue":"san gil, santander, colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"6.559166",
+                "longitude":"7"}]
+          }},
+        {
+          "groupValue":"Cartagena, Bol�var, Colombia",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"10",
+                "longitude":".3873369"}]
+          }},
+        {
+          "groupValue":"Suba, Bogot�, Cundinamarca, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.75365",
+                "longitude":"-74.08871"}]
+          }},
+        {
+          "groupValue":"Cali, V",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"alle del Cauca, Colombia",
+                "longitude":"3.43829"}]
+          }},
+        {
+          "groupValue":"Chico, Bogot�, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.6749557",
+                "longitude":"-74.0549812"}]
+          }},
+        {
+          "groupValue":"3015286291",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"santa marta, santa marta (distrito tur�stico cultural e his",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"t�rico), magdalena, colombia",
+                "longitude":"11.24725"}]
+          }},
+        {
+          "groupValue":"Bucaramanga, Santander, Colombia",
+          "doclist":{"numFound":3,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"7.11331",
+                "longitude":"-73.120468"}]
+          }},
+        {
+          "groupValue":"7316302",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"2538868",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"udes, c�cuta, de",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"partamento de norte de santander, colombia",
+                "longitude":"7.9111475"}]
+          }},
+        {
+          "groupValue":"Bogot�, Colom",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"bia",
+                "longitude":"4.5980556"}]
+          }},
+        {
+          "groupValue":"548 6207",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Bogot�, Colombia",
+                "longitude":"4.5980556"}]
+          }},
+        {
+          "groupValue":"6815691",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Pa",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"loquemao, Bogot�, Colombia",
+                "longitude":"4.6168281"}]
+          }},
+        {
+          "groupValue":"usaqu�n, bogot� d.c., bogot�, colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.7352478",
+                "longitude":"-74.018261"}]
+          }},
+        {
+          "groupValue":"a",
+          "doclist":{"numFound":9,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"4065382",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"autocentercoljob@gmail.com",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Bogot�, Colombia",
+                "longitude":"4.5980556"}]
+          }},
+        {
+          "groupValue":"2329464",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"santa marta, santa marta (distrito tur�stico cultural e hist�rico), magdalena, colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"11.24725",
+                "longitude":"-74.20166"}]
+          }},
+        {
+          "groupValue":"UDES,",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":" C�cuta, Departamento de Norte de Santander, Colombia",
+                "longitude":"7.9111475"}]
+          }},
+        {
+          "groupValue":"suba, bogot�, cundinamarca, colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.75365",
+                "longitude":"-74.088"}]
+          }},
+        {
+          "groupValue":"Duitama, Boyac�, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"5.825397",
+                "longitude":"-73.040154"}]
+          }},
+        {
+          "groupValue":"Teusaquillo, Bogot� D.C., Bogot�, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.6370782",
+                "longitude":"-74.0887576"}]
+          }},
+        {
+          "groupValue":"Presentarse personalmente",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"n/",
+          "doclist":{"numFound":9,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"311 07 74",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Bogot�, Colombia",
+                "longitude":"4.5980556"}]
+          }},
+        {
+          "groupValue":"Cali, Valle del ",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Cauca, Colombia",
+                "longitude":"3.43829"}]
+          }},
+        {
+          "groupValue":"2825544",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"xxxxxxx",
+          "doclist":{"numFound":3,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Cundinamarca, Bogot�, Cundinamarca, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.61666",
+                "longitude":"-74.09996"}]
+          }},
+        {
+          "groupValue":"Palmira, Valle del Cauca, Colo",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"mbia",
+                "longitude":"3.49091"}]
+          }},
+        {
+          "groupValue":"8932995",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Bogot�, Colo",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"mbia",
+                "longitude":"4.5980556"}]
+          }},
+        {
+          "groupValue":"cartagena, bol�var, colom",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"bia",
+                "longitude":"10.3873369"}]
+          }},
+        {
+          "groupValue":"Barrios Unidos, Bog",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ot� D.C., Bogot�, Colombia",
+                "longitude":"4.678658"}]
+          }},
+        {
+          "groupValue":"Pasadena, Fusagasug�, Cundinamarca, Col",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ombia",
+                "longitude":"4.3614"}]
+          }},
+        {
+          "groupValue":"Bo",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"got�, Colombia",
+                "longitude":"4.5980556"}]
+          }},
+        {
+          "groupValue":"3779523",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"cartagena, bol�var, colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"10.3873369",
+                "longitude":"-75.5196631"}]
+          }},
+        {
+          "groupValue":"4446520",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Paola Collazos Blanco",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"2846688",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Bogot�, Colombia",
+                "longitude":"4.5980556"}]
+          }},
+        {
+          "groupValue":"xxxxx",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Facatativ�, Cundinamarca, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.815029",
+                "longitude":"-74.356468"}]
+          }},
+        {
+          "groupValue":"0000000000",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"5401358",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Bogot�, Colombia",
+                "longitude":"4.5980556"}]
+          }},
+        {
+          "groupValue":"6339041",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Cali",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":", Valle del Cauca, Colombia",
+                "longitude":"3.43829"}]
+          }},
+        {
+          "groupValue":"Buga, Quito, Ecuador",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-0.2100289",
+                "longitude":"-78.5132233"}]
+          }},
+        {
+          "groupValue":"3116226",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"NO",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Confidencial",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"4 2327058",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Medell�n, Anti�quia, Colombia",
+                "longitude":"6.235925"}]
+          }},
+        {
+          "groupValue":"La Uni�n, Nari�o, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"1.605155",
+                "longitude":"-77.133636"}]
+          }},
+        {
+          "groupValue":"6305100 ext 2135",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"3173747561",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"7620554",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"2310020 Ext 105",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"tunja, boyac�, colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"5.5333333",
+                "longitude":"-73.3666667"}]
+          }},
+        {
+          "groupValue":"Antiguo Co",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"untry, Bogot�, Colombia",
+                "longitude":"4.6700345"}]
+          }},
+        {
+          "groupValue":"Cota, Cundinamarca, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.8095679",
+                "longitude":"-74.098129"}]
+          }},
+        {
+          "groupValue":"Maricella Marzán Montes",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"cundinamarca, colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"5.026003",
+                "longitude":"-74.0300122"}]
+          }},
+        {
+          "groupValue":"6087474",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Carrera 7, Bogot�, Cundinamarca, Colombia",
+                "longitude":"4.658985"}]
+          }},
+        {
+          "groupValue":"0",
+          "doclist":{"numFound":4,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"UDES, C�cuta, Departamento de Norte d",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"e Santander, Colombia",
+                "longitude":"7.9111475"}]
+          }},
+        {
+          "groupValue":".....",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"...",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Mauricio Abdala Escobar",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"Apartad�, Anti�quia, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"7.883609",
+                "longitude":"-76.632111"}]
+          }},
+        {
+          "groupValue":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"4448855 Ext 111",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"9",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Funza, Cundinamarca, Col",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ombia",
+                "longitude":"4.7166667"}]
+          }},
+        {
+          "groupValue":"chapi",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"nero, bogot� d.c., bogot�, colombia",
+                "longitude":"4.645851"}]
+          }},
+        {
+          "groupValue":"bucaramanga, santander, colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"7.11331",
+                "longitude":"-73.120468"}]
+          }},
+        {
+          "groupValue":"Medell�n, Anti�quia, C",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"olombia",
+                "longitude":"6.235925"}]
+          }},
+        {
+          "groupValue":"La Armenia, Marsella, Risar",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"alda, Colombia",
+                "longitude":"4.97586"}]
+          }},
+        {
+          "groupValue":"8220909",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Cali, Valle del Cauca,",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":" Colombia",
+                "longitude":"3.43829"}]
+          }},
+        {
+          "groupValue":"Mosquera, Cundina",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"marca, Colombia",
+                "longitude":"4.7077778"}]
+          }},
+        {
+          "groupValue":".",
+          "doclist":{"numFound":4,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Retorno Al Sur, Ch�a, Cundinamarca, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.8623",
+                "longitude":"1"}]
+          }},
+        {
+          "groupValue":"2511064",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"6822533",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Kennedy, Bogot� D.C., Bogot�, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.643498",
+                "longitude":"-74.153266"}]
+          }},
+        {
+          "groupValue":"2182400",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Chapinero, Bogot� D.C., Bogot�, Colombia",
+                "longitude":"4.645851"}]
+          }},
+        {
+          "groupValue":"Chapinero, Bogot� D.C., Bogot�, Colombia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"4.645851",
+                "longitude":"-74.063437"}]
+          }},
+        {
+          "groupValue":"Universidad del Valle Sede Yumbo, Yumbo, Valle del Cauca, C",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"olombia",
+                "longitude":"3.5871273"}]
+          }},
+        {
+          "groupValue":"San Luis Potos�, SLP, M�xico",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"22.1564699",
+                "longitude":"-100.9855409"}]
+          }},
+        {
+          "groupValue":"2310655",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"00000000",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"*****",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"000000",
+          "doclist":{"numFound":4,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"M�rida, YUC, M�xico",
+                "longitude":"20.97"}]
+          }},
+        {
+          "groupValue":"525558878686",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Cuautitl�n Izcalli, State of Mexico, Mexico",
+                "longitude":"19.645378"}]
+          }},
+        {
+          "groupValue":"Polanco, Miguel Hidalgo, 115",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"50 Ciudad de M�xico, D.F., M�xico",
+                "longitude":"19.430466"}]
+          }},
+        {
+          "groupValue":"1650",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Tlaquepaque, JAL, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.638435",
+                "longitude":"-103.3104"}]
+          }},
+        {
+          "groupValue":"San Juan del R�o, QRO, M�xic",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"o",
+                "longitude":"20.391528"}]
+          }},
+        {
+          "groupValue":"55354844",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"xxxxxxxx",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Santiago de Quer�taro, QRO, M�xico",
+          "doclist":{"numFound":9,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.5887932",
+                "longitude":"-100.3898881"}]
+          }},
+        {
+          "groupValue":"00",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"M�xico, San Luis R�o Colorado, SON, M�xico",
+          "doclist":{"numFound":4,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"32.4445717",
+                "longitude":"-114.7711198"}]
+          }},
+        {
+          "groupValue":"Tlalnepantla, MEX, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.538988",
+                "longitude":"-99.193281"}]
+          }},
+        {
+          "groupValue":"Nuevo Laredo, TAMPS, ",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"M�xico",
+                "longitude":"27.4800237"}]
+          }},
+        {
+          "groupValue":"Toluca de Lerdo, MEX, M�xico",
+          "doclist":{"numFound":4,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.287867",
+                "longitude":"-99.6467"}]
+          }},
+        {
+          "groupValue":"21595971",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Boca del R�o, VER, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.1400064",
+                "longitude":"-96.1155932"}]
+          }},
+        {
+          "groupValue":"Heroica Puebla de Zaragoza, PUE, M�xico",
+          "doclist":{"numFound":5,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.0412967",
+                "longitude":"-98.2061996"}]
+          }},
+        {
+          "groupValue":"Tecamac, Coyoac�n, Ciudad d",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"e M�xico, D.F., M�xico",
+                "longitude":"19.3362973"}]
+          }},
+        {
+          "groupValue":"662 2133852",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Hermosillo, SON, M�xico",
+                "longitude":"29.0891857"}]
+          }},
+        {
+          "groupValue":"9932651,52,53",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Aguascalientes, AGS, M�xico",
+                "longitude":"21.8817964"}]
+          }},
+        {
+          "groupValue":"83 33 65 21",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Monterrey, Nuevo Le�n, Mexico",
+                "longitude":"25.6732109"}]
+          }},
+        {
+          "groupValue":"*********",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"xxx",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Tlalnepantla, MEX, M�xico",
+                "longitude":"19.538988"}]
+          }},
+        {
+          "groupValue":"Mexicali, BC, M�xico",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"32.6455704",
+                "longitude":"-115.4453421"}]
+          }},
+        {
+          "groupValue":"Oax",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"aca, OAX, M�xico",
+                "longitude":"17.0833333"}]
+          }},
+        {
+          "groupValue":"Acapulco, GRO, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"16.863794",
+                "longitude":"-99.881614"}]
+          }},
+        {
+          "groupValue":"57-00-64-81.",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Federal, Boca del R�o, VER, M�xico",
+                "longitude":"19.1226516"}]
+          }},
+        {
+          "groupValue":"9 24 09 79",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Guadalajara, JAL, M�xico",
+          "doclist":{"numFound":4,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.67359",
+                "longitude":"-103.343803"}]
+          }},
+        {
+          "groupValue":"M�rida, Yucatan, Mexico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.97",
+                "longitude":"-89.62"}]
+          }},
+        {
+          "groupValue":"Belenes, Jardines de Los Belenes, 45190 Zapopan, JAL, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.7312153",
+                "longitude":"-103.3342905"}]
+          }},
+        {
+          "groupValue":"Champot�n, CAMP, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.3482882",
+                "longitude":"-90.7177236"}]
+          }},
+        {
+          "groupValue":"Coyoac�n, Coyac�n, D.F., M�xico",
+          "doclist":{"numFound":3,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.35",
+                "longitude":"-99.161"}]
+          }},
+        {
+          "groupValue":"Guadalupe, Nuev",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"o Le�n, Mexico",
+                "longitude":"25.6841389"}]
+          }},
+        {
+          "groupValue":"Colegio Puerto Aventuras, S.C., Carretera Chetumal  Puerto Ju�rez KM 269.5, Lote 7, Mza. 24, Plano 3, 77750 Puerto Aventuras, QROO, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.4996975",
+                "longitude":"-87.2298974"}]
+          }},
+        {
+          "groupValue":"Monterrey, NL, M�xico",
+          "doclist":{"numFound":4,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"25.6732109",
+                "longitude":"-100.309"}]
+          }},
+        {
+          "groupValue":"Zacapoaxtla, P",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"UE, M�xico",
+                "longitude":"19.876261"}]
+          }},
+        {
+          "groupValue":"D, �lvaro Obreg�n, Ciudad de M�xico, D.F., M�xico",
+          "doclist":{"numFound":6,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.3629809",
+                "longitude":"-99.2035"}]
+          }},
+        {
+          "groupValue":"ext 6838",
+          "doclist":{"numFound":5,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"7135 ext 107",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Villahermosa, TAB, M�xico",
+          "doclist":{"numFound":4,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"17.9875",
+                "longitude":"57"}]
+          }},
+        {
+          "groupValue":"guadalajara, jal, m�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.67359",
+                "longitude":"-103.343803"}]
+          }},
+        {
+          "groupValue":"Gustavo A",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":". Madero, Ciudad de M�xico, D.F., M�xico",
+                "longitude":"19.4822222"}]
+          }},
+        {
+          "groupValue":"Teoloyucan, MEX, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.7441667",
+                "longitude":"-9"}]
+          }},
+        {
+          "groupValue":"Coatzacoalcos, VER, M�xico",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"18.15",
+                "longitude":"-94.4333333"}]
+          }},
+        {
+          "groupValue":"Tec. de Guadalajara, 76158 Santiago de Quer�taro, Quer�taro, Mexic",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"o",
+                "longitude":"20.609505"}]
+          }},
+        {
+          "groupValue":"Sabinas, NL, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"26.523643",
+                "longitude":"4"}]
+          }},
+        {
+          "groupValue":"3646",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"ext 3261",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"iz�car de matamoros, pue, m�xico",
+                "longitude":"18.6"}]
+          }},
+        {
+          "groupValue":"M�xico, San Luis R�o Colorado, Sonora, Mexico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"32.4445717",
+                "longitude":"-114.7711198"}]
+          }},
+        {
+          "groupValue":"Universidad Cn",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"cio Playa del Carmen, Avenidad Benito Ju�rez 301, Centro, 77710 Solidaridad, QROO, M�xico",
+                "longitude":"25.6619087"}]
+          }},
+        {
+          "groupValue":"Hermosillo, SON, M",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"�xico",
+                "longitude":"29.0891857"}]
+          }},
+        {
+          "groupValue":"Zapopan, JAL, M�xico",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.7166667",
+                "longitude":"-103.4"}]
+          }},
+        {
+          "groupValue":"Tlalnepantla de Baz, State of Mexico, Mexico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.538988",
+                "longitude":"-99.193281"}]
+          }},
+        {
+          "groupValue":"Uruapan, MICH, M�xico",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.4172134",
+                "longitude":"-102.0503611"}]
+          }},
+        {
+          "groupValue":"Guadalaja",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ra, JAL, M�xico",
+                "longitude":"20.67359"}]
+          }},
+        {
+          "groupValue":"55337641",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Cuauht�moc, Ciudad de M�xico, D.F., M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.4",
+                "longitude":"42808"}]
+          }},
+        {
+          "groupValue":"Veracruz, VER, M�xico",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.1",
+                "longitude":"902778"}]
+          }},
+        {
+          "groupValue":"Cuajimalpa, �lvaro Obreg�n, Ciudad de M�xico, D.F., M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.3659559",
+                "longitude":"-99.20"}]
+          }},
+        {
+          "groupValue":"Reforma, �lvaro Ob",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"reg�n, Ciudad de M�xico, D.F., M�xico",
+                "longitude":"19.3826811"}]
+          }},
+        {
+          "groupValue":"Polanco, Miguel Hidalgo, 11550 Ciu",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"dad de M�xico, D.F., M�xico",
+                "longitude":"19.430456"}]
+          }},
+        {
+          "groupValue":"Xalapa Enr�quez, VER, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.5426237",
+                "longitude":"-96.9137441"}]
+          }},
+        {
+          "groupValue":"..",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Le�n de Los Aldama, GTO, M�xico",
+          "doclist":{"numFound":4,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"21.123619",
+                "longitude":"-101.680496"}]
+          }},
+        {
+          "groupValue":"958 58 30400",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Sat�lite, Habitacional Plaza de La Colina, Tlalnepantla, MEX, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.5180457",
+                "longitude":"-99.2286567"}]
+          }},
+        {
+          "groupValue":"ciudad obreg�n, son, m�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"27.4921987",
+                "longitude":"-109.9407056"}]
+          }},
+        {
+          "groupValue":"---",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"San Luis Potos�, SLP, M�x",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ico",
+                "longitude":"22.1564699"}]
+          }},
+        {
+          "groupValue":"San Luis P",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"otos�, M�xico",
+                "longitude":"23.375267"}]
+          }},
+        {
+          "groupValue":"6281-3575",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"D, �lvaro Obreg�n, Ciudad de M�xico, D.F., M�xico",
+                "longitude":"19.3629809"}]
+          }},
+        {
+          "groupValue":"Guadalajara, JAL, M�x",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ico",
+                "longitude":"20.67359"}]
+          }},
+        {
+          "groupValue":"Canc�n, QROO, M�xico",
+          "doclist":{"numFound":4,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"21.158964",
+                "longitude":"-86.845937"}]
+          }},
+        {
+          "groupValue":"Na",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ucalpan de Ju�rez, MEX, M�xico",
+                "longitude":"19.4752778"}]
+          }},
+        {
+          "groupValue":"01 222 7551560",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Monterrey, NL, M�xico",
+                "longitude":"25.6732109"}]
+          }},
+        {
+          "groupValue":"Sur, Agr�cola Oriental, Coyoac�n, 08500 Ciudad de M�xico, D.F., M�xi",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"co",
+                "longitude":"19.399551"}]
+          }},
+        {
+          "groupValue":"Santa Monica, Tlalnepantla, MEX, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.5160478",
+                "longitude":"-99.2195901"}]
+          }},
+        {
+          "groupValue":"Pie de La Cuesta, Acapulco, GRO, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"16.8979116",
+                "longitude":"-99.9612276"}]
+          }},
+        {
+          "groupValue":"2267600",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Los Mochis, SIN, M�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"xico",
+                "longitude":"25.789314"}]
+          }},
+        {
+          "groupValue":"0000",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"E, Modelo, 53330 Naucalp",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"an, State of Mexico, Mexico",
+                "longitude":"19.484771"}]
+          }},
+        {
+          "groupValue":"federal, boca del r�o, ver, m�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.1226516",
+                "longitude":"-96.10"}]
+          }},
+        {
+          "groupValue":"322 226 8473 ext 4610",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Le�n de Los Ald",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ama, GTO, M�xico",
+                "longitude":"21.123619"}]
+          }},
+        {
+          "groupValue":"624-105-1976",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Cabo San Lucas, Baja California Sur Mexico, Cabo San Lucas, Centro, Cabo San Lucas, BCS, M�xico",
+                "longitude":"22.8818169"}]
+          }},
+        {
+          "groupValue":"Playa del Carmen, QROO, M�xico",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.628",
+                "longitude":"505"}]
+          }},
+        {
+          "groupValue":"Villaher",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"mosa, TAB, M�xico",
+                "longitude":"17.987557"}]
+          }},
+        {
+          "groupValue":"Hermosillo, SON, M�xico",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"29.0891857",
+                "longitude":"-110.9613299"}]
+          }},
+        {
+          "groupValue":"Boca del R�o, VE",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"R, M�xico",
+                "longitude":"19.1400064"}]
+          }},
+        {
+          "groupValue":"6243039",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Tijuana, BC, M�xico",
+                "longitude":"32.533489"}]
+          }},
+        {
+          "groupValue":"Calzada de Tlalpan 5",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"008, Joya, La, Tlalpan, 14000 Coyac�n, D.F., M�xico",
+                "longitude":"19.280173"}]
+          }},
+        {
+          "groupValue":"(933) 315 10 15",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Villahermosa, TAB, M�xico",
+                "longitude":"17.987557"}]
+          }},
+        {
+          "groupValue":"Huatulco, 7 Regiones Ampliaci�n, Oaxaca, OAX, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"17.0940333",
+                "longitude":"-96.6932176"}]
+          }},
+        {
+          "groupValue":"Iztapalapa, Ciudad de M�xico, D.F., M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.3583333",
+                "longitude":"-99.0930556"}]
+          }},
+        {
+          "groupValue":"3173303",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Sr.a Patricia Alvarez",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"buenos aires, arg",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"entina",
+                "longitude":"-34.6037232"}]
+          }},
+        {
+          "groupValue":"San M",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"art�n, Buenos Aires, Argentina",
+                "longitude":"-34.5759506"}]
+          }},
+        {
+          "groupValue":"san fernando del valle de catamarca, catamarca, argentina",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-28.4689906",
+                "longitude":"-65.7789716"}]
+          }},
+        {
+          "groupValue":"Buenos Aires, Argentina",
+          "doclist":{"numFound":5,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-34.6037232",
+                "longitude":"-58.381"}]
+          }},
+        {
+          "groupValue":"Aeroparque Jorge Newbery (AEP) - Buenos Aires, Ciudad Aut�noma de Buenos Aires, Argentina",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-34.5594634",
+                "longitude":"-58.4144139"}]
+          }},
+        {
+          "groupValue":"4238-6003",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Caballito - Buenos Aires, Ciudad Aut�noma de Buenos Aires, Argentina",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-34.6166667",
+                "longitude":"-58.45"}]
+          }},
+        {
+          "groupValue":"Mendoza, Argentina",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-32.890183",
+                "longitude":"-68.8440498"}]
+          }},
+        {
+          "groupValue":"Iglesia Evangelica Gran Rey - Lavalle 930, San Nicol�s, Buenos Aires, Argentina",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-34.6025079",
+                "longitude":"-58.37"}]
+          }},
+        {
+          "groupValue":"Neuqu�n, Neuqu�n Province, Argentina",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-38.9524444",
+                "longitude":"-68.0641389"}]
+          }},
+        {
+          "groupValue":"Buenos Aires Este, San Juan, Argentina",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-31.5723076",
+                "longitude":"-68.5290604"}]
+          }},
+        {
+          "groupValue":"Lago Lugano - Buenos Aires, Ciudad Aut�noma de Buenos Aires, Argentina",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-34.6811316",
+                "longitude":"-58.44516"}]
+          }},
+        {
+          "groupValue":"49593465",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"del viso, buenos aires, argentina",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-34.4476799",
+                "longitude":"-58.8052387"}]
+          }},
+        {
+          "groupValue":"Mart�nez, Buenos Air",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"es, Argentina",
+                "longitude":"-34.4948079"}]
+          }},
+        {
+          "groupValue":"02477413903",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Pergamino, Buenos Aires, Argentina",
+                "longitude":"-33.8881416"}]
+          }},
+        {
+          "groupValue":"4583-2424",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"-",
+          "doclist":{"numFound":6,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"busquedaef@hotmail.com",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Alta Gracia, C�rdoba",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":" Province, Argentina",
+                "longitude":"-31.6545525"}]
+          }},
+        {
+          "groupValue":"Almagro - Buenos Aires, Ciudad Aut�noma de Buenos Aires, Argentina",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-34.6",
+                "longitude":"-58.4166667"}]
+          }},
+        {
+          "groupValue":"Ramos Mej�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"a, Buenos Aires, Argentina",
+                "longitude":"-34.6549073"}]
+          }},
+        {
+          "groupValue":"Buenos Aires,",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":" Argentina",
+                "longitude":"-34.6037232"}]
+          }},
+        {
+          "groupValue":"comodoro rivadavia, chubut, argentina",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-45.8679199",
+                "longitude":"-67.5"}]
+          }},
+        {
+          "groupValue":"San Miguel de Tucum�n, Tucum�n, Argentina",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-26.8082848",
+                "longitude":"-65.2175903"}]
+          }},
+        {
+          "groupValue":"C�rdoba, Argentin",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"a",
+                "longitude":"-31.3989296"}]
+          }},
+        {
+          "groupValue":"42577360",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"4257-0348",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"San Miguel de Tucum�n, Tuc",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"um�n, Argentina",
+                "longitude":"-26.8082848"}]
+          }},
+        {
+          "groupValue":"San Luis Potos�, Ciudad Valles, SLP, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"21.9858281",
+                "longitude":"-98.9961952"}]
+          }},
+        {
+          "groupValue":"Reforma, �lvaro Obreg�n, Ciudad de M�xico, D.F., M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.3826811",
+                "longitude":"-99.24761"}]
+          }},
+        {
+          "groupValue":"56683701",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Federal, Boca del R�o, VER, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.1226516",
+                "longitude":"-96.105"}]
+          }},
+        {
+          "groupValue":"Pla",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ya del Carmen, QROO, M�xico",
+                "longitude":"20.628505"}]
+          }},
+        {
+          "groupValue":"Torre�n, COAH, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"25.5428443",
+                "longitude":"-103.4"}]
+          }},
+        {
+          "groupValue":"Ext. 129",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"San Luis Potos�, SLP, M�xico",
+                "longitude":"22.1564699"}]
+          }},
+        {
+          "groupValue":"Naucal",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"pan, 54160 Tlalnepantla, MEX, M�xico",
+                "longitude":"19.5198557"}]
+          }},
+        {
+          "groupValue":"58940695",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"San Ju",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"an del R�o, QRO, M�xico",
+                "longitude":"20.391528"}]
+          }},
+        {
+          "groupValue":"hermosillo, son, m�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"29.0891857",
+                "longitude":"-110.9613299"}]
+          }},
+        {
+          "groupValue":"playa del carmen, qroo, m�xico",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.6285",
+                "longitude":"05"}]
+          }},
+        {
+          "groupValue":"Benito Ju�rez, Ciudad ",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"de M�xico, D.F., M�xico",
+                "longitude":"19.4013959"}]
+          }},
+        {
+          "groupValue":"50780100",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Cuautitlan Izcalli, MEX, M�xico",
+                "longitude":"19.645378"}]
+          }},
+        {
+          "groupValue":"1991 5512",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"D, �lvaro Obreg�n, Ciudad de M�xic",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"o, D.F., M�xico",
+                "longitude":"19.3629809"}]
+          }},
+        {
+          "groupValue":"xxxxxxxxxxxx",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Michoac�n, ",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Santa Clara de Valladares, MICH, M�xico",
+                "longitude":"19.6443881"}]
+          }},
+        {
+          "groupValue":"Tlajomulco de Z��iga, JAL, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.4736111",
+                "longitude":"-103.4430556"}]
+          }},
+        {
+          "groupValue":"Veracruz, VER, M�xic",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"o",
+                "longitude":"19.1902778"}]
+          }},
+        {
+          "groupValue":"San Francisco de Los Romo, AGS, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"22.0686684",
+                "longitude":"-1"}]
+          }},
+        {
+          "groupValue":"015555926287",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Durango, Mazatlan, SIN, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"23.2642604",
+                "longitude":"-106.3980609"}]
+          }},
+        {
+          "groupValue":"xxxxxxxxxxxxxxxxx",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"-------------",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Chilapa de �lvarez, GRO, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"17.59629",
+                "longitude":"-99.1770559"}]
+          }},
+        {
+          "groupValue":"Boca del R�o, VER, M�xi",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"co",
+                "longitude":"19.1400064"}]
+          }},
+        {
+          "groupValue":"San Francisco Coacalco, MEX, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.6416235",
+                "longitude":"-99"}]
+          }},
+        {
+          "groupValue":"Santa Fe, Caracas, Venezuela",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"10.463993",
+                "longitude":"-66.8692453"}]
+          }},
+        {
+          "groupValue":"M�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"rida, YUC, M�xico",
+                "longitude":"20.97"}]
+          }},
+        {
+          "groupValue":"Orizaba, VER, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"18.85",
+                "longitude":"-97.1"}]
+          }},
+        {
+          "groupValue":"ext. 257",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"mazatlan, sin, m�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"23.2361111",
+                "longitude":"-106.4152778"}]
+          }},
+        {
+          "groupValue":"Gustavo A. Madero, Ciudad de M�xico, D.F., M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.4822222",
+                "longitude":"-99.1125"}]
+          }},
+        {
+          "groupValue":"ext. 6838",
+          "doclist":{"numFound":3,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"12044226",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"San Pedro, Balcones de Santo Domingo, 66446 San Nicol�s de Los Garza, NL, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"25.7385676",
+                "longitude":"-100.2639296"}]
+          }},
+        {
+          "groupValue":"(998) 2678745",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"--",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"6649794408",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"36001210",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Ciudad Nicol�s Romero, State of Mexico, Mexico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.6197996",
+                "longitude":"-99.3114344"}]
+          }},
+        {
+          "groupValue":"ext 2507",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Ext. 127",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Santa Fe, �lvaro Obreg�n, Ciudad de M�xico, D.F.,",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":" M�xico",
+                "longitude":"19.3620171"}]
+          }},
+        {
+          "groupValue":"tijuana, bc, m�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"32.533489",
+                "longitude":"-117.018204"}]
+          }},
+        {
+          "groupValue":"Poza Rica, VER, M�xico",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.5333333",
+                "longitude":"-97.45"}]
+          }},
+        {
+          "groupValue":"heroica puebla de zaragoza, p",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ue, m�xico",
+                "longitude":"19.0412967"}]
+          }},
+        {
+          "groupValue":"Tierra Blanca, VER, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"18.",
+                "longitude":"447241"}]
+          }},
+        {
+          "groupValue":"Celaya, GTO, M�xico",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.5222222",
+                "longitude":"-1"}]
+          }},
+        {
+          "groupValue":"Canc�n, QRO",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"O, M�xico",
+                "longitude":"21.158964"}]
+          }},
+        {
+          "groupValue":"Mexicali,",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":" BC, M�xico",
+                "longitude":"32.6455704"}]
+          }},
+        {
+          "groupValue":"www.vacantes.net/soluciones",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"zapopan, jal, m�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.7166667",
+                "longitude":"-103.4"}]
+          }},
+        {
+          "groupValue":"Aguascalientes, AGS, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"21.8817964",
+                "longitude":"-102.2912701"}]
+          }},
+        {
+          "groupValue":"01 999 196 14 37",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"97970 Tekax, YUC, M�xico",
+                "longitude":"20.2022989"}]
+          }},
+        {
+          "groupValue":"5309850",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"(477) 7653732",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Le�n de Los Aldama, GTO, M�xico",
+                "longitude":"21.123619"}]
+          }},
+        {
+          "groupValue":"Colegio Puerto Aventuras, S.C., Carretera Chetumal  Puerto Ju�rez KM 269.5, L",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ote 7, Mza. 24, Plano 3, 77750 Puerto Aventuras, QROO, M�xico",
+                "longitude":"20.4996975"}]
+          }},
+        {
+          "groupValue":"899 9290497",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"na",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Campeche, CA",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"MP, M�xico",
+                "longitude":"19.8454459"}]
+          }},
+        {
+          "groupValue":"Cuautitl�n Izcalli, State of Mexico, Mexico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.645378",
+                "longitude":"-99.211222"}]
+          }},
+        {
+          "groupValue":"Polanco, Miguel Hidalgo, 11550 Ciudad de M�xic",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"o, D.F., M�xico",
+                "longitude":"19.430456"}]
+          }},
+        {
+          "groupValue":"D, �lvaro Obreg�n, Ciudad de M�xico, ",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"D.F., M�xico",
+                "longitude":"19.3629809"}]
+          }},
+        {
+          "groupValue":"9966234 y 9966235",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Loreto, ZAC, M�xico",
+                "longitude":"22.2697664"}]
+          }},
+        {
+          "groupValue":"x",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Tultitl�n de Mariano Escobedo, MEX, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.645565",
+                "longitude":"-99.1689269"}]
+          }},
+        {
+          "groupValue":"7070537",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"xochitepec, mor,",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":" m�xico",
+                "longitude":"18.780751"}]
+          }},
+        {
+          "groupValue":"4525033700",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Uruapan, Michoac�n, Mexico",
+                "longitude":"19.4172134"}]
+          }},
+        {
+          "groupValue":"Municipio de los Cabos Baja California Sur, Carretera Viejo a San Jos� del Cabo Lote 16, Centro, 23400 Cabo San Lucas, BCS",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":", M�xico",
+                "longitude":"23.053072"}]
+          }},
+        {
+          "groupValue":"013222977158",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Aeropuerto Internacional de Culiacan (CUL), Campo El Diez, SIN, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"24.765",
+                "longitude":"-107.475"}]
+          }},
+        {
+          "groupValue":"Ecatepec de Morelos, MEX, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.6",
+                "longitude":"-99.05"}]
+          }},
+        {
+          "groupValue":"D, �lvaro Obreg�n, Ci",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"udad de M�xico, D.F., M�xico",
+                "longitude":"19.3629809"}]
+          }},
+        {
+          "groupValue":"6622220898",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Sierra, Gustavo A. Madero, 07279 Ciudad de M�xico, D.F., M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.5281746",
+                "longitude":"-99.1508794"}]
+          }},
+        {
+          "groupValue":"Benito Ju�rez, Ciudad de M�xico, D.F., M�xico",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.4013959",
+                "longitude":"-99.157631"}]
+          }},
+        {
+          "groupValue":"Durazno, Ampliaci�n Vasconcel",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"os, 91158 Xalapa Enr�quez, VER, M�xico",
+                "longitude":"19.570345"}]
+          }},
+        {
+          "groupValue":"Azcapotzalco, Ciudad de M�xico, D.F., M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.4827778",
+                "longitude":"-99.183333"}]
+          }},
+        {
+          "groupValue":"Guad",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"alajara, JAL, M�xico",
+                "longitude":"20.67359"}]
+          }},
+        {
+          "groupValue":"Nauca",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"lpan de Ju�rez, MEX, M�xico",
+                "longitude":"19.4752778"}]
+          }},
+        {
+          "groupValue":"heroica nogales, son, m�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"31.3085642",
+                "longitude":"-110.9434486"}]
+          }},
+        {
+          "groupValue":"Huejotzingo, PUE, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.1581087",
+                "longitude":"-98.4078891"}]
+          }},
+        {
+          "groupValue":"jiutepec, mor, m�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"18.8810134",
+                "longitude":"-99.1759536"}]
+          }},
+        {
+          "groupValue":"D, �lvaro Obreg�n, Ciudad de M�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"xico, D.F., M�xico",
+                "longitude":"19.3629809"}]
+          }},
+        {
+          "groupValue":"56 04 66 68",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"018008493240",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Mexico City, Distrito Federal, Mexico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19",
+                "longitude":".4326077"}]
+          }},
+        {
+          "groupValue":"---------------------------",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Boca del R�o, VER, M",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"�xico",
+                "longitude":"19.1400064"}]
+          }},
+        {
+          "groupValue":"ext. 210",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"M�xico, San Luis R�o Colorado, SON, M�xico",
+                "longitude":"32.4445717"}]
+          }},
+        {
+          "groupValue":"55662712",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Cuauht�moc, Ciudad de M�xico, D.F., M�xico",
+                "longitude":"19.442808"}]
+          }},
+        {
+          "groupValue":"Rogelio Jara",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"00",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"Lic. Gisell Gonzalez",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"51505788",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Monterrey, NL, M�xico",
+                "longitude":"25.6732109"}]
+          }},
+        {
+          "groupValue":"M�rida, YUC, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.97",
+                "longitude":"-89.62"}]
+          }},
+        {
+          "groupValue":"52722614",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"M�xico, San Luis R�o Colorado, SON, M�xico",
+                "longitude":"32.4445717"}]
+          }},
+        {
+          "groupValue":"018005031014",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Torre�n,",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":" COAH, M�xico",
+                "longitude":"25.5428443"}]
+          }},
+        {
+          "groupValue":"Saltillo, COAH, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"25.4267244",
+                "longitude":"-100.9954254"}]
+          }},
+        {
+          "groupValue":"(899) 9-04-09-79",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"mail.com",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Pachuca de Soto, HGO, M�xico",
+                "longitude":"20.1153012"}]
+          }},
+        {
+          "groupValue":"33 10 15 37 95",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"57552043",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"045 477 121 47 93",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Le�n de Los Aldama, GTO, M�xico",
+                "longitude":"21.123619"}]
+          }},
+        {
+          "groupValue":"993 167 7",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"9 40",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"2910",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Tampico, TAMPS, M�xico",
+                "longitude":"22.2552778"}]
+          }},
+        {
+          "groupValue":"El Marqu�s, Santiago de Quer�taro, QRO, M�xi",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"co",
+                "longitude":"20.5835963"}]
+          }},
+        {
+          "groupValue":"xxxx",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"4646494421",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"1",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Tuxpan, VER, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.9645689",
+                "longitude":"-97.4044961"}]
+          }},
+        {
+          "groupValue":"heroica puebla de zaragoza, pue, m�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.0412967",
+                "longitude":"-98.2061996"}]
+          }},
+        {
+          "groupValue":"3142223",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"belenes,",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":" jardines de los belenes, 45190 zapopan, jal, m�xico",
+                "longitude":"20.7312153"}]
+          }},
+        {
+          "groupValue":"San Luis Potos�, Mexico",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"22.1564699",
+                "longitude":"-100.9855409"}]
+          }},
+        {
+          "groupValue":" 13 51",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Zapopan, JAL, M�xico",
+                "longitude":"20.7166667"}]
+          }},
+        {
+          "groupValue":"83-64-86-79",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":" 95",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Veracruz, VER, M�xico",
+                "longitude":"19.1902778"}]
+          }},
+        {
+          "groupValue":"Playa del Carmen, QRO",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"O, M�xico",
+                "longitude":"20.628505"}]
+          }},
+        {
+          "groupValue":"Delegaci�n Venustiano Carranza, Eje 3 Oriente (Francisco del Paso y Troncoso), Jard�n Balbuena, 15900 Ciudad de M�xico, D.F., M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"19.4191399",
+                "longitude":"-99.1132783"}]
+          }},
+        {
+          "groupValue":"Santa Catarina, NL, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"25.6833333",
+                "longitude":"-100.45"}]
+          }},
+        {
+          "groupValue":"Benito Ju�re",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"z, Ciudad de M�xico, D.F., M�xico",
+                "longitude":"19.4013959"}]
+          }},
+        {
+          "groupValue":"31100945",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"6595",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"51 3 19 18",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Asunci�n Nochixtlan, OAX, M�xico",
+                "longitude":"17.4580238"}]
+          }},
+        {
+          "groupValue":"*",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"0442225178314",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Valle de Santiago, GTO, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.39411",
+                "longitude":"-101.192902"}]
+          }},
+        {
+          "groupValue":"00.000.0000",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Santiago de Quer�taro, Quer�taro, Mexico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.5887932",
+                "longitude":"-100.3898881"}]
+          }},
+        {
+          "groupValue":"Miguel Angel de Quevedo, Ci",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"udad de M�xico, D.F., M�xico",
+                "longitude":"19.3448608"}]
+          }},
+        {
+          "groupValue":"Can",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"c�n, QROO, M�xico",
+                "longitude":"21.158964"}]
+          }},
+        {
+          "groupValue":"Yautepec, MOR, M�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"xico",
+                "longitude":"18.8833333"}]
+          }},
+        {
+          "groupValue":"Campeche, CAMP, M�x",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ico",
+                "longitude":"19.8454459"}]
+          }},
+        {
+          "groupValue":"D, �lvaro Obreg�n, Ciudad ",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"de M�xico, D.F., M�xico",
+                "longitude":"19.3629809"}]
+          }},
+        {
+          "groupValue":"Pachuca de Soto, HGO, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.1153012",
+                "longitude":"-98.7458874"}]
+          }},
+        {
+          "groupValue":"59756060",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"56164957",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Insurgentes Sur, San Angel, �lvaro Obreg�n, Ciudad de M�xico, D.F., M�xico",
+                "longitude":"19.3446269"}]
+          }},
+        {
+          "groupValue":"3177258",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Cabo San Lucas, Baja California Sur Mexico, Cabo San Lucas, Centro, Cabo San Lucas",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":", BCS, M�xico",
+                "longitude":"22.8818169"}]
+          }},
+        {
+          "groupValue":"Estacionamiento de Galer�as Coapa, Vergel Coapa, Tlalpan, Coyac�n, D.F., M�x",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ico",
+                "longitude":"19.301719"}]
+          }},
+        {
+          "groupValue":"4491949494",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Coatzacoalc",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"os, VER, M�xico",
+                "longitude":"18.15"}]
+          }},
+        {
+          "groupValue":"112",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Guadalajara, JAL, M�xico",
+                "longitude":"20.67359"}]
+          }},
+        {
+          "groupValue":"222-2-44-21-54",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Apizaco, TLAX, M�xico",
+                "longitude":"19.4147184"}]
+          }},
+        {
+          "groupValue":"5547392501",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"522222111970",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Heroica Puebla de Zaragoza, PUE, M�xico",
+                "longitude":"19.0412967"}]
+          }},
+        {
+          "groupValue":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Guadalajara, JAL, M�xico",
+                "longitude":"20.67359"}]
+          }},
+        {
+          "groupValue":"Villahermosa, ",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"TAB, M�xico",
+                "longitude":"17.987557"}]
+          }},
+        {
+          "groupValue":"none",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Canc�n, Quintana Roo, Mexico",
+                "longitude":"21.158964"}]
+          }},
+        {
+          "groupValue":"Guanajuato, 38010 Celaya, GTO, M�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"xico",
+                "longitude":"20.5494131"}]
+          }},
+        {
+          "groupValue":"Sistema Municipal",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":" DIF La Paz, Del Pino, Valle de Los Pinos, 56420 Los Reyes Acaquilpan, MEX, M�xico",
+                "longitude":"19.3660958"}]
+          }},
+        {
+          "groupValue":"55763478",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Naucalpan de Ju�rez, MEX, M�xico",
+                "longitude":"19.4752778"}]
+          }},
+        {
+          "groupValue":"Delegaci�n Venustiano Carranza, Eje 3 Oriente (Francisco del Paso y Troncoso), Jard�n",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":" Balbuena, 15900 Ciudad de M�xico, D.F., M�xico",
+                "longitude":"19.4191399"}]
+          }},
+        {
+          "groupValue":"Campeche, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"18.931225",
+                "longitude":"-90.2618068"}]
+          }},
+        {
+          "groupValue":"Irapuato, Villas de Cort�zar, 38324 Cort�zar, Guanajuato, Mexico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"20.4892995",
+                "longitude":"-100.9724061"}]
+          }},
+        {
+          "groupValue":"--------------------------------",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"A Tequisquiapan",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":", San Juan del R�o, QRO, M�xico",
+                "longitude":"20.4238638"}]
+          }},
+        {
+          "groupValue":"Edna Hernandez",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"6361-7602",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"1258731",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"xx",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"89897135 ext 107",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"485 ext 108",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"52027985",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"San Pedro Garza Garc�a, NL, M�xico",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"25.6573447",
+                "longitude":"-100.4017501"}]
+          }},
+        {
+          "groupValue":"Iglesia ",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"de La Merced, Lima 15001, Per�",
+                "longitude":"-12.048407"}]
+          }},
+        {
+          "groupValue":"Celular:940210924",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Trujillo, Per",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"�",
+                "longitude":"-8.112"}]
+          }},
+        {
+          "groupValue":"Mi",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"raflores, Per�",
+                "longitude":"-12.1175"}]
+          }},
+        {
+          "groupValue":"Lima, Per�",
+          "doclist":{"numFound":16,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.0478158",
+                "longitude":"-77.0622028"}]
+          }},
+        {
+          "groupValue":"Arequipa, Per�",
+          "doclist":{"numFound":7,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-16.3988222",
+                "longitude":"-71.5368861"}]
+          }},
+        {
+          "groupValue":"lima, per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.0478158",
+                "longitude":"-77.0622028"}]
+          }},
+        {
+          "groupValue":"Gral Ramon Vargas Machuca, Lima, Per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.157185",
+                "longitude":"-76.9914845"}]
+          }},
+        {
+          "groupValue":"65610",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"41*734*236",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Ate, P",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"er�",
+                "longitude":"-12.0215169"}]
+          }},
+        {
+          "groupValue":"Surco, Per�",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.15",
+                "longitude":"-77.0166667"}]
+          }},
+        {
+          "groupValue":"Sr. Ilich Masciotti",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"Lince, Per�",
+          "doclist":{"numFound":3,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.0829688",
+                "longitude":"-77.0362967"}]
+          }},
+        {
+          "groupValue":"La V",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"ictoria, Per�",
+                "longitude":"-12.0680299"}]
+          }},
+        {
+          "groupValue":"4372313",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"74",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Lima, Per�",
+                "longitude":"-12.0478158"}]
+          }},
+        {
+          "groupValue":"-------",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"4238709 824*8052",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Maracaibo, Venezuela",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"10.645",
+                "longitude":"04"}]
+          }},
+        {
+          "groupValue":"Cajamarca, Per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-7.162099",
+                "longitude":"-78.510628"}]
+          }},
+        {
+          "groupValue":"La Encrucijada de Turmero, Turmero, Venezuela",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"10.2015598",
+                "longitude":"-67.4710207"}]
+          }},
+        {
+          "groupValue":"Talara, Per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-4.5799028",
+                "longitude":"-81.2718778"}]
+          }},
+        {
+          "groupValue":"San Borja, Per�",
+          "doclist":{"numFound":3,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.1005158",
+                "longitude":"-76.9931074"}]
+          }},
+        {
+          "groupValue":"Caracas, Lima 15022, Per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.0684397",
+                "longitude":"-76.977395"}]
+          }},
+        {
+          "groupValue":"Tucac",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"as, Venezuela",
+                "longitude":"10.78036"}]
+          }},
+        {
+          "groupValue":"Jes�s Mar�a,",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":" Per�",
+                "longitude":"-12.0779148"}]
+          }},
+        {
+          "groupValue":"Jes�s Mar�a",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":", Per�",
+                "longitude":"-12.0779148"}]
+          }},
+        {
+          "groupValue":"426-4632",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"lima, per�",
+                "longitude":"-12.0478158"}]
+          }},
+        {
+          "groupValue":"962073020",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Tumbes, Per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-3.5666667",
+                "longitude":"-80.45"}]
+          }},
+        {
+          "groupValue":"Miraflores, Lima, Per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.1587727",
+                "longitude":"-76.9523572"}]
+          }},
+        {
+          "groupValue":"Recursos Humanos",
+          "doclist":{"numFound":4,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"3571543/ RPC:962334782/962787766",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"Bellavista, Per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.0582305",
+                "longitude":"-77.1053673"}]
+          }},
+        {
+          "groupValue":"Jalan Mega Mendung Selatan, Depok 16515, Indonesia",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-6",
+                "longitude":".323762"}]
+          }},
+        {
+          "groupValue":"531 -1614",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Carabayllo, Lima, Per�",
+                "longitude":"-11.9686512"}]
+          }},
+        {
+          "groupValue":"La Urbina, Caracas, Venezuela",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"10.4907021",
+                "longitude":"-66.806709"}]
+          }},
+        {
+          "groupValue":"Miraflores, Per�",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.1175",
+                "longitude":"-77.0430556"}]
+          }},
+        {
+          "groupValue":"san luis, per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.0754713",
+                "longitude":"-76.9959872"}]
+          }},
+        {
+          "groupValue":"Santa Anita, Per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.0429356",
+                "longitude":"-76.958545"}]
+          }},
+        {
+          "groupValue":"Jes�s Mar�a, Per�",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.0779148",
+                "longitude":"-77.0478112"}]
+          }},
+        {
+          "groupValue":"Barquisimeto, Venezuela",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"10.0636111",
+                "longitude":"-69.3347222"}]
+          }},
+        {
+          "groupValue":"on",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"Piura, Per�",
+          "doclist":{"numFound":3,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-5.2",
+                "longitude":"-80.6333333"}]
+          }},
+        {
+          "groupValue":" 7186588",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Trujillo, Per�",
+                "longitude":"-8.112"}]
+          }},
+        {
+          "groupValue":"-----------------",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"425-5667",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Juan Rumiche Morales",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"222 4544",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"Callao, Per�",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.0333333",
+                "longitude":"-77.1333333"}]
+          }},
+        {
+          "groupValue":"Enrique Diaz",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"id Tamayo",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"222-4544",
+                "longitude":"-"}]
+          }},
+        {
+          "groupValue":"Iquitos, Per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-3.75",
+                "longitude":"-73.25"}]
+          }},
+        {
+          "groupValue":"Ate, Per�",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.0215169",
+                "longitude":"-76.860565"}]
+          }},
+        {
+          "groupValue":"02874141800",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"988720611",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"3305772",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"lima, per�",
+                "longitude":"-12.0478158"}]
+          }},
+        {
+          "groupValue":"Calle Oriente, Puerto La Cruz, Venezuela",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"10.2372821",
+                "longitude":"-64.60"}]
+          }},
+        {
+          "groupValue":"422-0417",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Distrito de San Isidro, Per�",
+                "longitude":"-12.0991"}]
+          }},
+        {
+          "groupValue":"Gamarra, Unanue, La Victoria 15018, Per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.0657193",
+                "longitude":"-77.0123067"}]
+          }},
+        {
+          "groupValue":"6542242",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Huaraz, Per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-9.5333333",
+                "longitude":"-77.5333333"}]
+          }},
+        {
+          "groupValue":"Juliac",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"a, Per�",
+                "longitude":"-15.49918"}]
+          }},
+        {
+          "groupValue":"arismendizg@hotmail.com",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Miraflores, Per�",
+                "longitude":"-12.1175"}]
+          }},
+        {
+          "groupValue":"Monterrico, Lima 15023, Per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.091167",
+                "longitude":"-76.9729472"}]
+          }},
+        {
+          "groupValue":"51319",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"El Agustino, Per�",
+                "longitude":"-12.0333809"}]
+          }},
+        {
+          "groupValue":"5501692",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Carabobo, Venezuela",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"10.1176433",
+                "longitude":"-68.0477509"}]
+          }},
+        {
+          "groupValue":"Valencia, Venezuela",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"10.174127",
+                "longitude":"-67.999815"}]
+          }},
+        {
+          "groupValue":"--------------",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"calle Valencia, Ciudad Bol�var, Venezuela",
+                "longitude":"8.0891478"}]
+          }},
+        {
+          "groupValue":"0251-2692046",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"Pilar Orihuela",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"557-2087",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"Las Mercedes, Caracas, Vene",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"zuela",
+                "longitude":"10.4816837"}]
+          }},
+        {
+          "groupValue":"0261 - 7977578",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Maracaibo, Venezuela",
+                "longitude":"10.64504"}]
+          }},
+        {
+          "groupValue":"os",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"015699650",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"ursos Humanos",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"015699650",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"01569965",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"0",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"Diana Canizal",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"015591570426 y 018008002374",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"Lic.Mata",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"Chincha Alta, Per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-13.42553",
+                "longitude":"-76.136711"}]
+          }},
+        {
+          "groupValue":"che Morales",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"222-4544",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"981529407",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"los olivos, per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-11.970054",
+                "longitude":"-77.0737149"}]
+          }},
+        {
+          "groupValue":"Iris Chumacero",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"015699650",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"la victoria, per�",
+          "doclist":{"numFound":2,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.0680299",
+                "longitude":"-77.0161436"}]
+          }},
+        {
+          "groupValue":"Arequipa, P",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"er�",
+                "longitude":"-16.3988222"}]
+          }},
+        {
+          "groupValue":"3589043",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"surco, per�",
+                "longitude":"-12.15"}]
+          }},
+        {
+          "groupValue":"Mariara, Venezuela",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"10.28805",
+                "longitude":"-67"}]
+          }},
+        {
+          "groupValue":"4231408",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"chiclayo, per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-6.7765659",
+                "longitude":"-79.8464804"}]
+          }},
+        {
+          "groupValue":"0251-2690066",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"0251-2692137",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"La Merced, Per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-11.0619444",
+                "longitude":"-75.335"}]
+          }},
+        {
+          "groupValue":"av caracas, caracas, venezuela",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"10.5080346",
+                "longitude":"-6"}]
+          }},
+        {
+          "groupValue":"Lima",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":", Per�",
+                "longitude":"-12.0478158"}]
+          }},
+        {
+          "groupValue":"Lim",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"a, Piura, Per�",
+                "longitude":"-5.1936161"}]
+          }},
+        {
+          "groupValue":"Distrito de San Isidro, Per�",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"-12.0991",
+                "longitude":"-77.03475"}]
+          }},
+        {
+          "groupValue":"31-51-98",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Lambayeque, Per�",
+                "longitude":"-6.1420411"}]
+          }},
+        {
+          "groupValue":"3812934",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"Lima, Per�",
+                "longitude":"-12.0478158"}]
+          }},
+        {
+          "groupValue":"0212-2358023",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"0"}]
+          }},
+        {
+          "groupValue":"ndez",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"n/a",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"Tanya Escamilla Medina",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"50045700",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"3571543/ RPC:962334782/962",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"787766",
+                "longitude":"n/a"}]
+          }},
+        {
+          "groupValue":"Berenice Palma",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"207-09-74",
+                "longitude":"207-0975"}]
+          }},
+        {
+          "groupValue":"Hernández",
+          "doclist":{"numFound":1,"start":0,"docs":[
+              {
+                "category":"commerical",
+                "latitude":"6862528500",
+                "longitude":"6862528500"}]
+          }}]}}}
