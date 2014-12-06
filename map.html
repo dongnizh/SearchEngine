@@ -3,23 +3,19 @@
   <head>
     <meta charset="utf-8">
     <style>
-
       svg {
         /*background: #eee;*/
         /*margin-left: 5%;*/
         float: left;
         }
-
       .sphere {
         fill: #fff;
       }
-
       .land {
         fill: #f3f3f3;
         stroke: #d3d3d3;
         stroke-width: -2px;
       }
-
       .boundary {
         fill: none;
         stroke: #d3d3d3;
@@ -28,32 +24,26 @@
         stroke-linecap: round;
         vector-effect: non-scaling-stroke;
       }
-
       .overlay {
         fill: none;
         pointer-events: all;
       }
-
       #dropdown-list{
         float: right;
         margin:3%;
       }
-
       #input-form{
         width: 73px;
         margin-top: 10px;
         margin-bottom: 10px;
       }
-
       #list2{
         position: relative;
         margin-top:10px;
       }
-
       select{
         width: 80px;
       }
-
       .list-option{
         display: none;
       }
@@ -120,53 +110,41 @@
       
       var width = 960,
           height = 560;
-
       var map = d3.geo.mercator()
           .translate([width / 2, height / 2])
           .scale((width - 1) / 2 / Math.PI);
-
       var zoom = d3.behavior.zoom()
           .scaleExtent([1, 8])
           .on("zoom", zoomed);
-
       var path = d3.geo.path()
           .projection(map);
-
       var svg = d3.select("body").insert("svg",":first-child")
           .attr("width", width)
           .attr("height", height)
         .append("g");
-
       var layer1 = svg.append("g").attr("id", "first_layer");
       var layer2 = svg.append("g").attr("id", "second_layer");
-
       svg.append("rect")
           .attr("class", "overlay")
           .attr("width", width)
           .attr("height", height);
-
       svg.call(zoom)
           .call(zoom.event);
-
       d3.json("world.json", function(error, world) {
         layer1.append("path")
             .datum({type: "Sphere"})
             .attr("class", "sphere")
             .attr("d", path);
-
         layer1.append("path")
             .datum(topojson.merge(world, world.objects.countries.geometries))
             .attr("class", "land")
             .attr("d", path);
-
         layer1.append("path")
             .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
             .attr("class", "boundary")
             .attr("d", path);
       });
-
       $('#list1 select').change(function () {
-
         var option = "#list2 #"+$(this).val()+"-option";
         $('.list-option').hide();
         $(option).show();
@@ -176,18 +154,13 @@
       });
       
       $('#click-form').click(function () {
-
         var val = $("#list2 select").val(); 
-
         if ($("#list1 select").val() == "Q1") {
           var val = $("#list2 #Q1-option").val(); 
-
           if (val == "company") {
             d3.json("data/query1.json",function(d){ projectDot(d,"red")});
-
           }else if (val == "company_temporal"){
             d3.json("data/query5.json",function(d){ projectDot(d,"green")});
-
             setTimeout(function(){
               d3.json("data/query6.json",function(d){ projectDot(d,"red")});
             }, 2000);
@@ -197,13 +170,10 @@
             setTimeout(function(){
               d3.json("data/query8.json",function(d){ projectDot(d,"orange")});
             }, 6000);
-
           }else if (val == "salary"){
             d3.json("data/query3.json",function(d){ projectDot(d,"brown")});
-
           }else if (val == "salary_temporal"){
             d3.json("data/query5.json",function(d){ projectDot(d,"red")});
-
             setTimeout(function(){
               d3.json("data/query6.json",function(d){ projectDot(d,"black")});
             }, 2000);
@@ -213,13 +183,10 @@
             setTimeout(function(){
               d3.json("data/query8.json",function(d){ projectDot(d,"orange")});
             }, 6000);
-
           }else if (val == "jobType"){
             d3.json("data/query2.json",function(d){ projectDot(d,"red")});
-
           }else if (val == "jobType_temporal"){
             d3.json("data/query5.json",function(d){ projectDot(d,"brown")});
-
             setTimeout(function(){
               d3.json("data/query6.json",function(d){ projectDot(d,"red")});
             }, 2000);
@@ -229,7 +196,6 @@
             setTimeout(function(){
               d3.json("data/query8.json",function(d){ projectDot(d,"orange")});
             }, 6000);
-
           }
           
         }else if ($("#list1 select").val() == "Q2") {
@@ -244,18 +210,13 @@
           setTimeout(function(){
             d3.json("data/query8.json",projectDot_Q2);
           }, 6000);
-
         }else if ($("#list1 select").val() == "Q3") {
           
-
         }else if($("#list1 select").val() == "Q4"){
-
           var val = $("#list2 #Q4-option").val(); 
-
           if (val == "business") {
             
             d3.json("data/query13.json",function(d){ projectDot(d,"brown")});
-
             setTimeout(function(){
               d3.json("data/query14.json",function(d){ projectDot(d,"red")});
             }, 2000);
@@ -265,10 +226,8 @@
             setTimeout(function(){
               d3.json("data/query16.json",function(d){ projectDot(d,"orange")});
             }, 6000);
-
           }else if (val == "industrial") {
             d3.json("data/query17.json",function(d){ projectDot(d,"brown")});
-
             setTimeout(function(){
               d3.json("data/query18.json",function(d){ projectDot(d,"red")});
             }, 2000);
@@ -278,7 +237,6 @@
             setTimeout(function(){
               d3.json("data/query20.json",function(d){ projectDot(d,"orange")});
             }, 6000);
-
           }else if (val == "commercial") {
             
           }
@@ -292,11 +250,8 @@
             
           }
         }
-
       });
-
       function projectDot(dataset,color){
-
         $('#second_layer').empty();
             svg.select("#second_layer")
                 .selectAll("path")
@@ -310,9 +265,7 @@
                 .attr("cy", function(d){ return map([d.doclist.docs[0].longitude,d.doclist.docs[0].latitude])[1] })
                 .attr("cx", function(d){ return map([d.doclist.docs[0].longitude,d.doclist.docs[0].latitude])[0] });
       }
-
       function projectDot_Q2(dataset){
-
         $('#second_layer').empty();
             svg.select("#second_layer")
                 .selectAll("path")
@@ -339,13 +292,10 @@
                 .attr("cy", function(d){ return map([d.doclist.docs[0].longitude,d.doclist.docs[0].latitude])[1] })
                 .attr("cx", function(d){ return map([d.doclist.docs[0].longitude,d.doclist.docs[0].latitude])[0] });
       }
-
       function zoomed() {
         svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
       }
-
       d3.select(self.frameElement).style("height", height + "px");
-
     </script>
   </body>
 </html>
